@@ -105,7 +105,7 @@ body {
     margin-top: 10px;
     font-size: 0.65em;
     color: white;
-    width: 80%;
+    width: 100%;
 }
 /* END OF INTRO */
 
@@ -199,10 +199,6 @@ body {
         font-size: 3em;
     }
 
-    #intro-tile #intro-section p {
-        width: 100%;
-    }
-
     #EnQ-base {
        padding: 3.75em 1.5em 3.75em 1.5em;
     }
@@ -233,10 +229,6 @@ body {
 
     #intro-tile h1 {
         font-size: 3em;
-    }
-
-    #intro-tile #intro-section p {
-        width: 100%;
     }
 
     #EnQ-base {
@@ -271,6 +263,30 @@ body {
        padding: 5px 2em 5px 2em;
     }
 
+    #intro-tile h1 {
+        font-size: 5em;
+    }
+
+    #EnQ-base {
+        padding: 3.75em 1.5em 3.75em 1.5em;
+    }
+ 
+    #query-tile {
+        padding-left: 15px;
+    }
+
+    #query-tile #query-sec a {
+        font-size: 0.7em;
+    }
+}   
+/* END OF MEDIUM DEVICES */
+
+/* LARGE DEVICES */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 13px;
+    }
+
     #EnQ-base {
         padding: 3.75em 1.5em 3.75em 1.5em;
     }
@@ -279,18 +295,22 @@ body {
         padding-left: 15px;
     }
 }   
-/* END OF MEDIUM DEVICES */
-
-/* LARGE DEVICES */
-@media (min-width: 992px) and (max-width: 1199px) {
-    body {
-        font-size: 12px;
-    }
-}   
 /* END OF LARGE DEVICES */
 
 /* EXTRA LARGE DEVICES */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px){
+    #intro-tile #intro-section p {
+        width: 80%;
+    }
 
+    #EnQ-base {
+        padding: 3.75em 8em 3.75em 8em;
+    }
 }   
+
+@media (min-width: 1400px){
+    #intro-tile #intro-section p {
+        width: 80%;
+    }
+}
 /* END OF EXTRA LARGE DEVICES */
