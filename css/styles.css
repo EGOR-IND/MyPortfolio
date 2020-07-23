@@ -190,6 +190,10 @@ body {
         padding-left: 1.5em;
     }
 
+    #intro-tile h1 {
+        font-size: 3em;
+    }
+
     #intro-tile #intro-section p {
         width: 100%;
     }
@@ -200,6 +204,14 @@ body {
 
     #query-tile {
         padding-left: 15px;
+    }
+    
+    #query-tile #query-sec {
+        font-size: 2em;
+    }
+
+    #query-tile #query-sec a {
+        font-size: 0.7em;
     }
 }
 /* END OF EXTRA SMALL DEVICES */
@@ -214,6 +226,10 @@ body {
         padding-left: 1.5em;
     }
 
+    #intro-tile h1 {
+        font-size: 3em;
+    }
+
     #intro-tile #intro-section p {
         width: 100%;
     }
@@ -224,6 +240,14 @@ body {
  
     #query-tile {
         padding-left: 15px;
+    }
+
+    #query-tile #query-sec {
+        font-size: 2em;
+    }
+
+    #query-tile #query-sec a {
+        font-size: 0.7em;
     }
 }   
 /* END OF SMALL DEVICES */
