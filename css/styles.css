@@ -1,0 +1,267 @@
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #1a181f;
+}
+
+/* HEADER */
+#header-nav{
+    padding: 1.25em 2.5em 0 2.5em;
+}
+
+#brand_logo {
+    padding: 0;
+    font-family: 'Modak', cursive;
+    font-size: 3.125em;
+}
+
+#brand_logo_1 {
+    color: #EB3434;
+}
+
+
+#nav-list li {
+    align-self: baseline;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 2.5em;
+}
+
+#nav-list {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-list a {
+    font-size: 1.25em;
+    color: white;
+    padding: 5px 3em 5px 3em;
+}
+
+#nav-list a:hover {
+    background-color: #FFFFFF;
+    color: #EB3434;
+}
+
+#contact-btn a {
+    font-size: 1.5em;
+    background-color: #03081A;
+    color: #EB3434;
+    padding: 10px 0.83em 10px 0.83em;
+    font-weight: 900;
+}
+
+#contact-btn #contact-arrow {
+    margin-left: 15px;
+}
+
+#contact-btn a:hover {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #EB3434;
+    box-shadow: 3px 3px #cacbdb;
+}
+/* END OF HEADER */
+
+/* INTRO */
+#intro-base {
+    padding: 3.75em 1.25em 3.75em 1.25em;
+}
+#intro-tile {
+    padding-left: 7.5em;
+}
+
+#intro-tile h1 {
+    color: white;
+    font-size: 6em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+}
+
+#intro-tile #intro-section {
+    color: #EB3434;
+    margin-left: 10px;
+    font-size: 1.5em;    
+}
+
+#intro-tile #intro-section hr {
+    display: inline-block;
+    background-color: #EB3434;
+    width: 40%;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#intro-tile #intro-section span {
+    font-size: 0.8em;
+    color: white;
+}
+
+#intro-tile #intro-section p {
+    margin-top: 10px;
+    font-size: 0.65em;
+    color: white;
+    width: 80%;
+}
+/* END OF INTRO */
+
+/* EXP AND QUERY*/
+#EnQ-base {
+    background-color: #1f1f24;
+    padding: 3.75em 15em 3.75em 15em;
+}
+
+#Exp-tile #exp-sec {
+    color: #EB3434;
+    font-size: 1.1em;
+}
+
+#Exp-tile #exp-sec hr {
+    display: inline-block;
+    background-color: #EB3434;
+    width: 20%;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#Exp-tile #exp-sec span {
+    color: white;
+    font-size: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900
+}
+
+#Exp-tile #exp-sec p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: white;
+    width: 90%;
+}
+
+#Exp-tile #exp-sec #Y-O-E {
+    font-size: 4em;
+    margin-left: 20px;
+    color: tomato;
+}
+
+#Exp-tile #exp-sec #Y-O-E-stmt {
+    font-size: 1.2em;
+    margin-left: 10px;
+    color: tomato;
+}
+
+#query-tile {
+    padding-left: 2em;
+}
+
+#query-tile #query-sec {
+    font-size: 3em;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900
+}
+
+#query-tile #query-sec span {
+    font-size: 0.4em;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+#query-tile #query-sec a {
+    color: tomato;
+    font-size: 0.8em;
+}
+
+#query-tile #query-sec a div {
+    margin-left: 5px;
+}
+/* END OF EXP AND QUERY*/
+
+/* EXTRA SMALL DEVICES */
+@media (min-width: 0px) and (max-width: 575px) {
+    body {
+        font-size: 14px;
+    }
+
+    #intro-tile {
+        padding-left: 1.5em;
+    }
+
+    #intro-tile #intro-section p {
+        width: 100%;
+    }
+
+    #EnQ-base {
+       padding: 3.75em 1.5em 3.75em 1.5em;
+    }
+
+    #query-tile {
+        padding-left: 15px;
+    }
+}
+/* END OF EXTRA SMALL DEVICES */
+
+/* SMALL DEVICES */
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    #intro-tile {
+        padding-left: 1.5em;
+    }
+
+    #intro-tile #intro-section p {
+        width: 100%;
+    }
+
+    #EnQ-base {
+        padding: 3.75em 1.5em 3.75em 1.5em;
+    }
+ 
+    #query-tile {
+        padding-left: 15px;
+    }
+}   
+/* END OF SMALL DEVICES */
+
+/* MEDIUM DEVICES */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 12px;
+    }
+
+    #nav-list {
+        margin-right: 0;
+    }
+
+    #nav-list a {
+       padding: 5px 2em 5px 2em;
+    }
+
+    #EnQ-base {
+        padding: 3.75em 1.5em 3.75em 1.5em;
+    }
+ 
+    #query-tile {
+        padding-left: 15px;
+    }
+}   
+/* END OF MEDIUM DEVICES */
+
+/* LARGE DEVICES */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 12px;
+    }
+}   
+/* END OF LARGE DEVICES */
+
+/* EXTRA LARGE DEVICES */
+@media (min-width: 1200px) {
+
+}   
+/* END OF EXTRA LARGE DEVICES */
