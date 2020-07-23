@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #1a181f;
+    width: 100%;
 }
 
 /* HEADER */
@@ -184,6 +185,10 @@ body {
 @media (min-width: 0px) and (max-width: 575px) {
     body {
         font-size: 14px;
+    }
+
+    #header-nav{
+        padding: 1.25em 1.5em 0 1.5em;
     }
 
     #intro-tile {
