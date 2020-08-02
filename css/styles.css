@@ -40,6 +40,7 @@ body {
     font-size: 1.25em;
     color: white;
     padding: 5px 3em 5px 3em;
+    transition: 0.2s;
 }
 
 #nav-list a:hover {
@@ -64,6 +65,7 @@ body {
     text-decoration: none;
     color: #EB3434;
     box-shadow: 3px 3px #cacbdb;
+    transition: 0.2s;
 }
 /* END OF HEADER */
 
@@ -179,7 +181,61 @@ body {
 #query-tile #query-sec a div {
     margin-left: 5px;
 }
+
+#query-tile #query-sec a div svg {
+    transition: 0.4s;
+}
+
+#query-tile #query-sec a div svg:hover {
+    transform: rotate(180deg);
+     
+}
 /* END OF EXP AND QUERY*/
+
+/*SKILL BASE*/
+#skills-base {
+    padding: 3.75em 8em 3.75em 8em;
+}
+#skills-title {
+    color: tomato;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+}
+
+#webd-tile>div, #android-tile>div, #cross-plat-tile>div {
+    box-shadow:  5px 5px 15px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: 0 10px 0 10px;
+    background-color: #1f1f24;
+    color: white;
+    height: 100%;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+#webd-tile>div:hover, #android-tile>div:hover, #cross-plat-tile>div:hover {
+    box-shadow: -10px -10px white;
+    background-color: #EB3434;
+    color: white;
+    margin: 0;
+    transition: 0.2s;
+}
+
+#webd-tile img, #android-tile img, #cross-plat-tile img {
+    display: block;
+    margin: auto;
+}
+
+#webd-tile span, #android-tile span, #cross-plat-tile span {
+    font-size: 2.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+}
+/*END OF SKILL BASE*/
 
 /* EXTRA SMALL DEVICES */
 @media (min-width: 0px) and (max-width: 575px) {
@@ -214,6 +270,14 @@ body {
     #query-tile #query-sec a {
         font-size: 0.7em;
     }
+
+    #skills-base {
+        padding: 3.75em 1.5em 3.75em 1.5em;
+    }
+
+    #webd-tile, #android-tile, #cross-plat-tile {
+        margin-bottom: 2em;
+    }
 }
 /* END OF EXTRA SMALL DEVICES */
 
@@ -245,6 +309,10 @@ body {
 
     #query-tile #query-sec a {
         font-size: 0.7em;
+    }
+
+    #skills-base {
+        padding: 3.75em 1.5em 3.75em 1.5em;
     }
 }   
 /* END OF SMALL DEVICES */
