@@ -225,8 +225,27 @@ body {
     transition: 0.2s;
 }
 
-#webd-tile img, #android-tile img, #cross-plat-tile img {
-    display: block;
+#webd-tile , #android-tile img, #cross-plat-tile img {
+}
+
+#webd-tile #website_img {
+    background: url("../images/web.png") no-repeat center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#android-tile #android_img {
+    background: url("../images/android.png") no-repeat center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#cross-plat-tile #cross-plat_img {
+    background: url("../images/cross_plat.png") no-repeat center;
+    width: 200px;
+    height: 200px;
     margin: auto;
 }
 
@@ -272,11 +291,29 @@ body {
     }
 
     #skills-base {
-        padding: 3.75em 1.5em 3.75em 1.5em;
+        padding: 3.75em 1em 3.75em 1em;
     }
 
     #webd-tile, #android-tile, #cross-plat-tile {
         margin-bottom: 2em;
+    }
+
+    #webd-tile #website_img {
+        background: url("../images/web_sm.png") no-repeat center;
+        width: 150px;
+        height: 150px;
+    }
+    
+    #android-tile #android_img {
+        background: url("../images/android_sm.png") no-repeat center;
+        width: 150px;
+        height: 150px;
+    }
+    
+    #cross-plat-tile #cross-plat_img {
+        background: url("../images/cross_plat_sm.png") no-repeat center;
+        width: 150px;
+        height: 150px;
     }
 }
 /* END OF EXTRA SMALL DEVICES */
@@ -314,6 +351,10 @@ body {
     #skills-base {
         padding: 3.75em 1.5em 3.75em 1.5em;
     }
+
+    #webd-tile, #android-tile, #cross-plat-tile {
+        margin-bottom: 2em;
+    }
 }   
 /* END OF SMALL DEVICES */
 
@@ -346,6 +387,10 @@ body {
     #query-tile #query-sec a {
         font-size: 0.7em;
     }
+
+    #webd-tile, #android-tile, #cross-plat-tile {
+        margin-bottom: 3em;
+    }
 }   
 /* END OF MEDIUM DEVICES */
 
@@ -361,6 +406,10 @@ body {
  
     #query-tile {
         padding-left: 15px;
+    }
+
+    #webd-tile, #android-tile, #cross-plat-tile {
+        margin-bottom: 3em;
     }
 }   
 /* END OF LARGE DEVICES */
