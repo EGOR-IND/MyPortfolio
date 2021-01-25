@@ -1,2 +1,2 @@
 # MyPortfolio
-this project is based on developing my own portfolio website
+This project is for developing my own portfolio website.
